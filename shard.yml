@@ -1,0 +1,21 @@
+name: gias-api2
+version: 0.1.0
+
+authors:
+  - Peter Yates <peter.yates@graphia.co.uk>
+
+targets:
+  gias-api2:
+    main: src/gias-api.cr
+
+crystal: 1.4.0
+
+license: MIT
+
+dependencies:
+  toro:
+    github: soveran/toro
+    branch: master
+  pg:
+    github: will/crystal-pg
+    version: "~> 0.5"
